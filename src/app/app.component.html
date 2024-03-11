@@ -1,0 +1,64 @@
+<div class="row-layout header">
+  <div class="row-layout group">
+    <igx-avatar src="/assets/Logo.svg" shape="circle" class="avatar"></igx-avatar>
+    <h6 class="content">
+      App Name
+    </h6>
+  </div>
+  <div class="row-layout group_1">
+    <button igxButton="flat" igxRipple routerLink="/view1" class="button">
+      VIEW 1
+    </button>
+    <button igxButton="flat" igxRipple routerLink="/view2" class="button">
+      VIEW 2
+    </button>
+    <button igxButton="flat" igxRipple routerLink="/view3" class="button_1">
+      VIEW 3
+    </button>
+  </div>
+  <div class="row-layout group_2">
+    <button igxRipple igxIconButton="flat" class="icon-button">
+      <igx-icon>
+        account_circle
+      </igx-icon>
+    </button>
+    <button igxRipple igxIconButton="flat" class="icon-button">
+      <igx-icon>
+        shopping_cart
+      </igx-icon>
+    </button>
+    <button igxRipple igxIconButton="flat">
+      <igx-icon>
+        help
+      </igx-icon>
+    </button>
+  </div>
+</div>
+<div class="row-layout main-section">
+  <div class="column-layout content-left">
+    <p class="ig-typography__subtitle-2 text">
+      FIXED LEFT PANE
+    </p>
+    <p class="ig-typography__body-2 content">
+      Ut finibus risus eros, et bibendum ante eleifend ac. Sed justo felis, ultrices vel velit quis, sodales consectetur tellus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sed consectetur mi. 
+    </p>
+  </div>
+  <div class="row-layout content-main">
+    <div class="view-container">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+  <div class="column-layout content-left">
+    <p class="ig-typography__subtitle-2 text">
+      FIXED RIGHT PANE
+    </p>
+    <p class="ig-typography__body-2 content">
+      Duis in nisl eu nisl malesuada pellentesque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec a consequat purus, ac mattis lectus. Proin in facilisis metus. Aliquam eu eros ut nulla malesuada mattis. 
+    </p>
+  </div>
+</div>
+<div class="row-layout footer">
+  <p class="ig-typography__body-2 content">
+    Ut eros nunc, finibus ut nunc at, gravida mollis enim
+  </p>
+</div>

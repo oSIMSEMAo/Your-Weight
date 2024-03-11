@@ -1,0 +1,17 @@
+:host {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.h5 {
+  margin: 0 0 16px;
+  height: max-content;
+  min-width: min-content;
+}
+.text {
+  height: max-content;
+  min-width: min-content;
+}
